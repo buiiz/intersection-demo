@@ -1,0 +1,51 @@
+body,
+.app {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: antiquewhite;
+}
+
+.circle {
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  background-blend-mode: multiply;
+}
+
+.red {
+  background-color: red;
+  background-image: url("https://picsum.photos/200");
+}
+
+.green {
+  background-color: green;
+  background-image: url("https://picsum.photos/201");
+}
+
+.blue {
+  background-color: blue;
+  background-image: url("https://picsum.photos/202");
+}
+
+.center {
+  position: absolute;
+  height: 3px;
+  width: 3px;
+  top: 50%;
+  left: 50%;
+  border-radius: 100vmax;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: 1px solid white;
+}
+
